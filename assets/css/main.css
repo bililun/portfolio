@@ -29,7 +29,7 @@ Theme Name: Borstein
 }
 html {font-family: 'Poppins', sans-serif; background-color:#2A2A2A}
 body {font-family: 'Poppins', sans-serif; overflow-x: hidden; background-color:#2A2A2A; font-weight:400;font-style: normal; color: #FFF; font-size: var(--font_14)}
-a,a:hover,a:focus,i,input,button,input:focus,.transition {text-decoration: none;outline: none;transition-delay: 0s;transition-duration: 0.2s;transition-property: all;transition-timing-function: ease;box-shadow: none;}
+a,a:hover,a:focus,svg,svg:hover,i,input,button,input:focus,.transition {text-decoration: none;outline: none;transition-delay: 0s;transition-duration: 0.2s;transition-property: all;transition-timing-function: ease;box-shadow: none;}
 a{color: #000}
 iframe {border: 0;outline: none;}
 ::-moz-selection {background: var(--red);text-shadow: none;color:var(--white)}
@@ -87,14 +87,19 @@ svg,img { max-width: 100%; height: auto; }
 .ds-projects-section h2 span{ display: block; font-family: 'Poppins', sans-serif; text-transform: uppercase; color: #a200ff; font-weight: 600; letter-spacing: 3px; font-size: 0.75rem; margin-bottom: 0.625rem}
 .ds-projects-inline-link{ color: #fff; text-decoration: underline }
 .ds-projects-inline-link:hover{ color: #a200ff; text-decoration: underline }
+.ds-projects-subtitle{ text-decoration: none}
+.ds-projects-subtitle a{font-size: 2rem; color:#a200ff }
+.ds-projects-subtitle a:hover{color:#fff}
 
-.ds-projects-listing-section{ margin-top:5rem  }
+.ds-projects-listing-section{ margin-top:3rem  }
 .ds-projects-loop figure{ margin-right: 60px; position: relative; }
 .ds-projects-loop:hover figure img.ds-image-shadow{box-shadow:20px 20px #8ec127;}
 .ds-link-button{ position: absolute; left: 50%; top: 50%; transform: translate(-50%, -50%); width: 4rem; height: 4rem; border-radius: 3px; background-color: #000; text-decoration: none; display: block; justify-content: center; align-items: center; display: flex; color: #a200ff; font-size: 2.125rem; text-align: center; opacity: 0 }
 .ds-leftify{ transform: translate(-105%, -50%) }
 .ds-rightify{ transform: translate(5%, -50%) }
 .ds-link-button:hover{ color: #fff }
+.ds-link-button svg{fill: #a200ff}
+.ds-link-button svg:hover{ fill: #fff }
 .ds-projects-loop:hover .ds-link-button{ opacity: 1 }
 .ds-projects-loop section{ margin-top: 5.875rem }
 .ds-projects-loop section h3{font-family: 'Poppins', sans-serif; font-weight: 700; font-size: 1.25rem}
